@@ -1,0 +1,48 @@
+.content{
+    /* grid-template-columns: auto; */
+    content: 600px;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    margin: 20px;
+    padding: 20px;
+    text-align: center; 
+}
+
+.tittles, .logo{
+    text-align: center;
+    letter-spacing: 0.2em;
+}
+
+p{
+    text-align: left;
+}
+
+/* h1{
+    transform-style: ca;
+
+} */
+
+h2{
+    font-size: medium;
+    color:#006EB6;
+    letter-spacing: 0.5em;
+}
+
+ .list{
+        padding: 1%;
+        text-align: left;
+        padding-left: 1em;
+        
+
+ }
+
+ /* li{
+
+ } */
+
+.logo{
+    /* size: 20px; */
+    width: 150px;
+    height: 100px;
+    line-height: 1.5;
+}
