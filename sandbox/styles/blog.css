@@ -1,0 +1,90 @@
+#content{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: grid;
+   grid-template-columns: 1;
+   grid-template-rows: 3;
+}
+
+.topnav{
+    background-color: #efc69b;
+    overflow: hidden;
+    color: #af1b3f;
+}
+
+.date{
+    grid-column: 1;
+    grid-row: 1;
+    color: #af1b3f;
+}
+
+.filters{
+    grid-column: 3;
+    grid-row: 1;
+    color: #af1b3f;
+
+}
+
+.books{
+    grid-column: 2;
+    grid-row: 1;
+
+}
+
+.topnav a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover{
+    background-color: #efc69b;
+    color: black;
+}
+
+.topnav input[type=text]{
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+h1{
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #af1b3f;
+    background-color: white;
+}
+.header{
+    padding: 80px;
+    text-align: center;
+    background-color: white;
+    color: #af1b3f;
+}
+
+.header h1{
+    font-size: 40px;
+
+}
+
+img {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+    height: 300px;
+    width: 200px;
+    image-orientation: center;
+    text-align: center;
+} 
+
+img p{
+    grid-column:1 ;
+    grid-row: 2;
+
+    text-align: center;
+}

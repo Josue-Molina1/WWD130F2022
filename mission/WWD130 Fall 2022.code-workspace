@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "personal files",
+			"path": "../../personal files"
+		},
+		{
+			"name": "WWD130 Fall 2022",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "WWD130 Fall 2022"
+	}
+}
