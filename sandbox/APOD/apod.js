@@ -1,4 +1,5 @@
-apodURL = "https://api.nasa.gov/planetary/apod?api_key=0UieBswOrvrViwGPhI6ypg1tdwR9iF8tKV6eT2yJ";
+apodURL = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY";
+
 
 async function getApod(url){
     const response = await fetch(url);
